@@ -1,7 +1,7 @@
 # terraform-azurerm-oneormanywindowsVM
 Terraform code for deploying one or many Windows VM on Azure
 
-= Tested with success with Terraform v0.12.18 + Azurerm provider version v1.39.0 - 3rd of january 2020
+= __Tested with success__ with Terraform v0.12.18 + Azurerm provider version v1.39.0 - __3rd of january 2020__
 
 --------------------------------------------------------------------------------------------------------
 This is a set of Terraform files used to deploy one or many Windows Virtual Machines on Microsoft Azure :
