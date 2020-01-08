@@ -30,6 +30,19 @@ variable "PrivateIPAdressAllocationType" {
   default = "dynamic"
 }
 
+# Variable Public IP Name
+variable "PublicIPName" {
+  type    = string
+  default = "PublicIP4WinVM"
+}
+
+# Variable Public IP Adress Allocation type
+# Can be Static or Dynamic
+variable "PublicIPAllocationType" {
+  type    = string
+  default = "Static"
+}
+
 # Variable to define name of Azure VM
 variable "VMName" {
   type    = string
