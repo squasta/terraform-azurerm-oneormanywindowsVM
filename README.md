@@ -9,7 +9,7 @@ This is a set of Terraform files used to deploy one or many Windows Virtual Mach
 - __datasource.tf__ : use this file to configure a datasource to retrieve Windows Password stored as a secret in an Azure Key Vault
 - __var.tf__ : contains definition of all variables used in main.tf. Some variables have default values
 - __main.tf__ : contains code to deploy an Azure Resource Group, a VNet, a Subnet, an Availability Set, 1 to N Windows virtual machine(s), a Network Security Group
-- __versions.tf__ : contains minimal version of Terraform to use
+- __versions.tf__ : contains minimal version of Terraform and Azurerm provider version to use
 
 __Prerequisites :__
 - An Azure Subscription with enough privileges (create RG, AKS...)
